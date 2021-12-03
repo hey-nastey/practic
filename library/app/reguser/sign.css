@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic ;
+}
+.body{
+    background-color: rgb(241, 224, 201);
+    background-image: url(../../image/topography.svg);
+}
+.cont{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    padding: 50px;
+    border: 2px solid;
+    background-color: blanchedalmond;
+}
+.form{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.form p{
+    font-size: 24px;
+    padding: 10px;
+}
+.form input, button {
+    font-size: 20px;
+    padding: 10px;
+}
+.form a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+.msg{
+    width: 200px;
+    border:2px solid;
+    color: rgb(230, 84, 84);
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+}

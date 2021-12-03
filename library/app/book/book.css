@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic ;
+}
+.ex{
+    color: #d1b692;
+    padding:10px;
+    font-size: 14px;
+}
+.ex a{
+    text-decoration: none;
+    color: black;
+}
+.body{
+    background-color: rgb(241, 224, 201);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px;
+}
+.form p, input{
+    margin: 10px 0px 10px 0px;
+    font-size: 18px;
+}
+.form h1{
+    margin: 10px 0px 10px 0px;
+}
+.msg{
+    width: 200px;
+    border:2px solid;
+    color: rgb(230, 84, 84);
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    margin: 30px;
+}

@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic ;
+}
+.header{
+    padding: 50px 80px 50px 80px;
+    background-color:#d1b692;
+    font-size: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav a{
+    text-decoration: none;
+    text-decoration: underline black; 
+    color: black;
+}
+.body{
+    background-color: rgb(241, 224, 201);
+}
+.main{
+    padding: 50px;
+}
+.main h1{
+    font-size: 30px;
+    padding-bottom: 30px;  
+}
+.main a{  
+    text-decoration: none;
+    text-decoration: underline black; 
+    color: black;
+}
+.table{
+	table-layout: fixed;
+	width: 100%;
+	margin-top: 20px;
+}
+.table th {
+	padding: 5px;
+	background: #efefef;
+}
+.table td{
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	text-align: center;
+}
+.table tbody tr:nth-child(odd){
+	background: #fff;
+}
+.table tbody tr:nth-child(even){
+	background: #F7F7F7;
+}
